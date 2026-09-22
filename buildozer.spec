@@ -7,7 +7,7 @@ source.include_exts = py,png,jpg,jpeg,wav,mp3,json,txt
 source.exclude_dirs = .venv,logs,tests,.git,__pycache__,android_build
 source.exclude_patterns = *.pyc,src/*.IMP.py,src/*.old.py,src/*.MOST.py
 version = 1.0.0
-requirements = python3,pygame-ce,pymunk,grpcio,protobuf,google-api-python-client,google-auth,google-auth-httplib2,python-dateutil
+requirements = python3,pygame-ce,pymunk,grpcio==1.84.0,protobuf,google-api-python-client,google-auth,google-auth-httplib2,python-dateutil
 orientation = portrait
 fullscreen = 1
 android.api = 35
