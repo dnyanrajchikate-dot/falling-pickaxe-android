@@ -13,6 +13,7 @@ fullscreen = 1
 android.api = 35
 android.minapi = 23
 android.ndk = 28c
+android.accept_sdk_license = True
 android.archs = arm64-v8a
 android.permissions = INTERNET,WAKE_LOCK
 android.allow_backup = True
